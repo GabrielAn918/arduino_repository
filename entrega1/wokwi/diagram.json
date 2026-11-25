@@ -1,0 +1,299 @@
+{
+  "version": 1,
+  "author": "Gabriel Andres Castillo Garcia",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-arduino-uno",
+      "id": "uno",
+      "top": 200,
+      "left": 0,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": 0,
+      "left": 40,
+      "attrs": {
+        "color": "red",
+        "label": "L1"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 83.75,
+      "left": 35.6,
+      "rotate": 90,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led2",
+      "top": 0,
+      "left": 85,
+      "attrs": {
+        "color": "orange",
+        "label": "L2"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r2",
+      "top": 83.75,
+      "left": 80.6,
+      "rotate": 90,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led3",
+      "top": 0,
+      "left": 130,
+      "attrs": {
+        "color": "yellow",
+        "label": "L3"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r3",
+      "top": 83.75,
+      "left": 125.6,
+      "rotate": 90,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led4",
+      "top": 0,
+      "left": 175,
+      "attrs": {
+        "color": "limegreen",
+        "label": "L4"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r4",
+      "top": 83.75,
+      "left": 170.6,
+      "rotate": 90,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led5",
+      "top": 0,
+      "left": 220,
+      "attrs": {
+        "color": "blue",
+        "label": "L5"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r5",
+      "top": 83.75,
+      "left": 215.6,
+      "rotate": 90,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "type": "wokwi-slide-switch",
+      "id": "sw1",
+      "top": 0,
+      "left": 280,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-potentiometer",
+      "id": "pot1",
+      "top": 450,
+      "left": 145,
+      "rotate": 180,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [
+      "led1:A",
+      "r1:1",
+      "red",
+      []
+    ],
+    [
+      "r1:2",
+      "uno:12",
+      "green",
+      [
+        "v60",
+        "h69.5"
+      ]
+    ],
+    [
+      "led1:C",
+      "led2:C",
+      "black",
+      [
+        "v12",
+        "h45"
+      ]
+    ],
+    [
+      "led2:A",
+      "r2:1",
+      "red",
+      []
+    ],
+    [
+      "r2:2",
+      "uno:11",
+      "green",
+      [
+        "v45",
+        "h34"
+      ]
+    ],
+    [
+      "led2:C",
+      "led3:C",
+      "black",
+      [
+        "v12",
+        "h45"
+      ]
+    ],
+    [
+      "led3:A",
+      "r3:1",
+      "red",
+      []
+    ],
+    [
+      "r3:2",
+      "uno:10",
+      "green",
+      [
+        "v30",
+        "h-1.5"
+      ]
+    ],
+    [
+      "led3:C",
+      "led4:C",
+      "black",
+      [
+        "v12",
+        "h45"
+      ]
+    ],
+    [
+      "led4:A",
+      "r4:1",
+      "red",
+      []
+    ],
+    [
+      "r4:2",
+      "uno:9",
+      "green",
+      [
+        "v45",
+        "h-37"
+      ]
+    ],
+    [
+      "led4:C",
+      "led5:C",
+      "black",
+      [
+        "v12",
+        "h45"
+      ]
+    ],
+    [
+      "led5:A",
+      "r5:1",
+      "red",
+      []
+    ],
+    [
+      "r5:2",
+      "uno:8",
+      "green",
+      [
+        "v60",
+        "h-72"
+      ]
+    ],
+    [
+      "led1:C",
+      "uno:GND.1",
+      "black",
+      [
+        "v12",
+        "h-35",
+        "v140",
+        "h95.5"
+      ]
+    ],
+    [
+      "sw1:1",
+      "led5:C",
+      "black",
+      [
+        "v20",
+        "h-51.5"
+      ]
+    ],
+    [
+      "sw1:2",
+      "uno:2",
+      "orange",
+      [
+        "v165",
+        "h-59.5"
+      ]
+    ],
+    [
+      "pot1:VCC",
+      "uno:5V",
+      "red",
+      [
+        "v-30",
+        "h-11.6"
+      ]
+    ],
+    [
+      "pot1:GND",
+      "uno:GND.2",
+      "black",
+      [
+        "v-45",
+        "h-22.1"
+      ]
+    ],
+    [
+      "pot1:SIG",
+      "uno:A0",
+      "violet",
+      [
+        "v-25",
+        "h26.4"
+      ]
+    ]
+  ],
+  "dependencies": {}
+}
