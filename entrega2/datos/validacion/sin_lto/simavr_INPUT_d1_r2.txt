@@ -1,0 +1,17 @@
+analogRead_primera,ciclos=3244
+analogRead,ciclos_prom=1694.5,us_prom=105.91,min=1691,max=1907
+digitalRead,ciclos_prom=62.9,us_prom=3.93,min=59,max=181
+micros,ciclos_prom=51.3,us_prom=3.21,min=48,max=179
+loops_por_s,87572,D2=0
+loops_por_s,100667,D2=1
+loops_por_s,100559,D2=1
+loops_por_s,100663,D2=1
+loops_por_s,100559,D2=1
+loops_por_s,100662,D2=1
+loops_por_s,100560,D2=1
+loops_por_s,100662,D2=1
+loops_por_s,100662,D2=1
+loops_por_s,100560,D2=1
+loops_por_s,100662,D2=1
+factor_tiempo_real,6.523
+factor_tras_aplicar,6.395

@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "author": "Gabriel Andres Castillo Garcia",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-arduino-uno",
+      "id": "uno",
+      "top": 230,
+      "left": 0,
+      "attrs": {}
+    },
+    {
+      "type": "chip-hc05",
+      "id": "bt1",
+      "top": 90,
+      "left": 205,
+      "attrs": {
+        "link": "1",
+        "autotest": "0",
+        "autoPeriodMs": "250"
+      },
+      "rotate": 270
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": 60,
+      "left": 60,
+      "attrs": {
+        "color": "limegreen",
+        "label": "Verde"
+      }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led2",
+      "top": 60,
+      "left": 110,
+      "attrs": {
+        "color": "red",
+        "label": "Rojo"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 150,
+      "left": 55,
+      "rotate": 90,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r2",
+      "top": 150,
+      "left": 105,
+      "rotate": 90,
+      "attrs": {
+        "value": "220"
+      }
+    }
+  ],
+  "connections": [
+    [
+      "bt1:TXD",
+      "uno:0",
+      "orange",
+      []
+    ],
+    [
+      "bt1:STATE",
+      "uno:2",
+      "blue",
+      []
+    ],
+    [
+      "bt1:EN",
+      "uno:7",
+      "violet",
+      []
+    ],
+    [
+      "bt1:VCC",
+      "uno:5V",
+      "red",
+      []
+    ],
+    [
+      "bt1:GND",
+      "uno:GND.2",
+      "black",
+      []
+    ],
+    [
+      "bt1:LINK_TX",
+      "$serialMonitor:RX",
+      "gray",
+      []
+    ],
+    [
+      "bt1:LINK_RX",
+      "$serialMonitor:TX",
+      "gray",
+      []
+    ],
+    [
+      "uno:5",
+      "r1:2",
+      "green",
+      []
+    ],
+    [
+      "r1:1",
+      "led1:A",
+      "green",
+      []
+    ],
+    [
+      "led1:C",
+      "uno:GND.1",
+      "black",
+      []
+    ],
+    [
+      "uno:6",
+      "r2:2",
+      "green",
+      []
+    ],
+    [
+      "r2:1",
+      "led2:A",
+      "green",
+      []
+    ],
+    [
+      "led2:C",
+      "uno:GND.1",
+      "black",
+      []
+    ],
+    [
+      "uno:1",
+      "bt1:RXD",
+      "yellow",
+      []
+    ]
+  ],
+  "dependencies": {},
+  "serialMonitor": {
+    "display": "always",
+    "newline": "lf"
+  }
+}

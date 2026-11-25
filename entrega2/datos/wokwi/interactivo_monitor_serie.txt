@@ -1,0 +1,17 @@
+# Wokwi - Monitor serie (pantalla de la app del celular). Comandos escritos: V1, r1, V=40, STATUS, hola, PING
+
+[App] Conectado a POLI-IOT-E2
+Hola! Arduino UNO listo via POLI-IOT-E2
+Comandos: V1 V0 R1 R0 V=n R=n ALL1 ALL0 STATUS PING HELP | 1 2 3 4
+OK V=255 R=0
+OK V=255 R=255
+OK V=40 R=255
+STATUS V=40 R=255 BT=POLI-IOT-E2 FW=2.0-20100601 RX=4 OK=3 ERR=0
+ERR comando desconocido
+PONG
+
+[App] Conexion perdida con POLI-IOT-E2
+
+[App] Conectado a POLI-IOT-E2
+Hola! Arduino UNO listo via POLI-IOT-E2
+Comandos: V1 V0 R1 R0 V=n R=n ALL1 ALL0 STATUS PING HELP | 1 2 3 4

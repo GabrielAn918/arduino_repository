@@ -1,0 +1,8 @@
+{
+  "name": "HC-05 Bluetooth (modelo)",
+  "author": "Gabriel Andres Castillo Garcia",
+  "pins": ["STATE", "RXD", "TXD", "GND", "VCC", "EN", "", "LINK_RX", "LINK_TX", ""],
+  "controls": [
+    { "id": "link", "label": "Enlace Bluetooth (0 = desconectado, 1 = conectado)", "type": "range", "min": 0, "max": 1, "step": 1 }
+  ]
+}

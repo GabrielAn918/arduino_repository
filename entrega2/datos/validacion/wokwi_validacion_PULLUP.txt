@@ -1,0 +1,23 @@
+analogRead_primera,ciclos=3224
+analogRead,ciclos_prom=1674.7,us_prom=104.67,min=1672,max=1797
+digitalRead,ciclos_prom=47.2,us_prom=2.95,min=44,max=168
+micros,ciclos_prom=15.9,us_prom=1.00,min=14,max=138
+loops_por_s,137740,D2=1
+loops_por_s,157455,D2=1
+loops_por_s,157293,D2=1
+loops_por_s,157455,D2=1
+loops_por_s,157294,D2=1
+loops_por_s,157455,D2=1
+loops_por_s,157293,D2=1
+loops_por_s,157455,D2=1
+loops_por_s,157455,D2=1
+loops_por_s,157294,D2=1
+loops_por_s,157455,D2=1
+loops_por_s,157294,D2=1
+loops_por_s,157454,D2=1
+loops_por_s,157294,D2=1
+loops_por_s,157455,D2=1
+loops_por_s,157294,D2=1
+loops_por_s,157455,D2=1
+# Fuente: monitor serie de Wokwi (wokwi.com), sketch validacion_e1.ino compilado por el servidor de Wokwi
+# Compilación reportada por Wokwi: "Sketch uses 4428 bytes (13%) ... Global variables use 238 bytes (11%)"

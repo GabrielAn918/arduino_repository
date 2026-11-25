@@ -1,0 +1,20 @@
+# Wokwi - Chips Console (modelo HC-05) - prueba interactiva escribiendo en el monitor serie
+HC-05 (modelo) listo. autotest=0
+[24.392 ms] AT <- AT
+[50.553 ms] AT <- AT+NAME=POLI-IOT-E2
+[65.081 ms] AT <- AT+NAME?
+[102.554 ms] AT <- AT+VERSION?
+[500.000 ms] ENLACE CONECTADO
+[1136.409 ms] CMD "V1"
+[1152.011 ms] RSP "OK V=255 R=0" latencia=14.560 ms
+[9182.496 ms] CMD "r1"
+[9200.189 ms] RSP "OK V=255 R=255" latencia=16.651 ms
+[9351.247 ms] CMD "V=40"
+[9367.922 ms] RSP "OK V=40 R=255" latencia=15.633 ms
+[9519.997 ms] CMD "STATUS"
+[9589.904 ms] RSP "STATUS V=40 R=255 BT=POLI-IOT-E2 FW=2.0-20100601 RX=4 OK=3 ERR=0" latencia=68.865 ms
+[9751.248 ms] CMD "hola"
+[9778.339 ms] RSP "ERR comando desconocido" latencia=26.050 ms
+[9917.915 ms] CMD "PING"
+[9925.162 ms] RSP "PONG" latencia=6.206 ms
+[11820.000 ms] ENLACE DESCONECTADO  (control 'Enlace' llevado a 0: ambos LED apagados)

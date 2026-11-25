@@ -1,0 +1,139 @@
+# Wokwi - Chips Console del modelo HC-05 en modo autoprueba (autotest=65, autoPeriodMs=150)
+# El chip actúa como celular: envía 65 comandos (5 ciclos de 13) y mide la latencia
+# desde el fin del '\n' del comando hasta el fin de la línea de respuesta del Arduino (tiempo simulado).
+[24.392 ms] AT <- AT
+[50.553 ms] AT <- AT+NAME=POLI-IOT-E2
+[65.081 ms] AT <- AT+NAME?
+[102.554 ms] AT <- AT+VERSION?
+[500.000 ms] ENLACE CONECTADO
+[650.000 ms] CMD "V1" (auto 1/65)
+[667.683 ms] RSP "OK V=255 R=0" latencia=14.558 ms
+[800.000 ms] CMD "R1" (auto 2/65)
+[819.777 ms] RSP "OK V=255 R=255" latencia=16.652 ms
+[950.000 ms] CMD "V=128" (auto 3/65)
+[972.933 ms] RSP "OK V=128 R=255" latencia=16.683 ms
+[1100.000 ms] CMD "R=64" (auto 4/65)
+[1120.836 ms] RSP "OK V=128 R=64" latencia=15.628 ms
+[1250.000 ms] CMD "STATUS" (auto 5/65)
+[1326.162 ms] RSP "STATUS V=128 R=64 BT=POLI-IOT-E2 FW=2.0-20100601 RX=5 OK=4 ERR=0" latencia=68.870 ms
+[1400.000 ms] CMD "PING" (auto 6/65)
+[1411.414 ms] RSP "PONG" latencia=6.206 ms
+[1550.000 ms] CMD "V0" (auto 7/65)
+[1566.640 ms] RSP "OK V=0 R=64" latencia=13.515 ms
+[1700.000 ms] CMD "R0" (auto 8/65)
+[1715.610 ms] RSP "OK V=0 R=0" latencia=12.485 ms
+[1850.000 ms] CMD "XYZ" (auto 9/65)
+[1880.214 ms] RSP "ERR comando desconocido" latencia=26.048 ms
+[2000.000 ms] CMD "1" (auto 10/65)
+[2016.641 ms] RSP "OK V=255 R=0" latencia=14.558 ms
+[2150.000 ms] CMD "3" (auto 11/65)
+[2168.735 ms] RSP "OK V=255 R=255" latencia=16.651 ms
+[2300.000 ms] CMD "2" (auto 12/65)
+[2316.646 ms] RSP "OK V=0 R=255" latencia=14.562 ms
+[2450.000 ms] CMD "4" (auto 13/65)
+[2464.561 ms] RSP "OK V=0 R=0" latencia=12.478 ms
+[2600.000 ms] CMD "V1" (auto 14/65)
+[2617.685 ms] RSP "OK V=255 R=0" latencia=14.560 ms
+[2750.000 ms] CMD "R1" (auto 15/65)
+[2769.780 ms] RSP "OK V=255 R=255" latencia=16.655 ms
+[2900.000 ms] CMD "V=128" (auto 16/65)
+[2922.935 ms] RSP "OK V=128 R=255" latencia=16.685 ms
+[3050.000 ms] CMD "R=64" (auto 17/65)
+[3070.839 ms] RSP "OK V=128 R=64" latencia=15.631 ms
+[3200.000 ms] CMD "STATUS" (auto 18/65)
+[3278.243 ms] RSP "STATUS V=128 R=64 BT=POLI-IOT-E2 FW=2.0-20100601 RX=18 OK=16 ERR=1" latencia=70.952 ms
+[3350.000 ms] CMD "PING" (auto 19/65)
+[3361.414 ms] RSP "PONG" latencia=6.206 ms
+[3500.000 ms] CMD "V0" (auto 20/65)
+[3516.639 ms] RSP "OK V=0 R=64" latencia=13.514 ms
+[3650.000 ms] CMD "R0" (auto 21/65)
+[3665.602 ms] RSP "OK V=0 R=0" latencia=12.477 ms
+[3800.000 ms] CMD "XYZ" (auto 22/65)
+[3830.219 ms] RSP "ERR comando desconocido" latencia=26.052 ms
+[3950.000 ms] CMD "1" (auto 23/65)
+[3966.643 ms] RSP "OK V=255 R=0" latencia=14.559 ms
+[4100.000 ms] CMD "3" (auto 24/65)
+[4118.735 ms] RSP "OK V=255 R=255" latencia=16.651 ms
+[4250.000 ms] CMD "2" (auto 25/65)
+[4266.644 ms] RSP "OK V=0 R=255" latencia=14.561 ms
+[4400.000 ms] CMD "4" (auto 26/65)
+[4414.561 ms] RSP "OK V=0 R=0" latencia=12.478 ms
+[4550.000 ms] CMD "V1" (auto 27/65)
+[4567.682 ms] RSP "OK V=255 R=0" latencia=14.557 ms
+[4700.000 ms] CMD "R1" (auto 28/65)
+[4719.780 ms] RSP "OK V=255 R=255" latencia=16.655 ms
+[4850.000 ms] CMD "V=128" (auto 29/65)
+[4872.932 ms] RSP "OK V=128 R=255" latencia=16.682 ms
+[5000.000 ms] CMD "R=64" (auto 30/65)
+[5020.839 ms] RSP "OK V=128 R=64" latencia=15.631 ms
+[5150.000 ms] CMD "STATUS" (auto 31/65)
+[5228.244 ms] RSP "STATUS V=128 R=64 BT=POLI-IOT-E2 FW=2.0-20100601 RX=31 OK=28 ERR=2" latencia=70.952 ms
+[5300.000 ms] CMD "PING" (auto 32/65)
+[5311.414 ms] RSP "PONG" latencia=6.206 ms
+[5450.000 ms] CMD "V0" (auto 33/65)
+[5466.636 ms] RSP "OK V=0 R=64" latencia=13.511 ms
+[5600.000 ms] CMD "R0" (auto 34/65)
+[5615.602 ms] RSP "OK V=0 R=0" latencia=12.477 ms
+[5750.000 ms] CMD "XYZ" (auto 35/65)
+[5780.211 ms] RSP "ERR comando desconocido" latencia=26.044 ms
+[5900.000 ms] CMD "1" (auto 36/65)
+[5916.643 ms] RSP "OK V=255 R=0" latencia=14.560 ms
+[6050.000 ms] CMD "3" (auto 37/65)
+[6068.740 ms] RSP "OK V=255 R=255" latencia=16.657 ms
+[6200.000 ms] CMD "2" (auto 38/65)
+[6216.644 ms] RSP "OK V=0 R=255" latencia=14.561 ms
+[6350.000 ms] CMD "4" (auto 39/65)
+[6364.566 ms] RSP "OK V=0 R=0" latencia=12.483 ms
+[6500.000 ms] CMD "V1" (auto 40/65)
+[6517.682 ms] RSP "OK V=255 R=0" latencia=14.557 ms
+[6650.000 ms] CMD "R1" (auto 41/65)
+[6669.780 ms] RSP "OK V=255 R=255" latencia=16.655 ms
+[6800.000 ms] CMD "V=128" (auto 42/65)
+[6822.933 ms] RSP "OK V=128 R=255" latencia=16.683 ms
+[6950.000 ms] CMD "R=64" (auto 43/65)
+[6970.845 ms] RSP "OK V=128 R=64" latencia=15.637 ms
+[7100.000 ms] CMD "STATUS" (auto 44/65)
+[7178.244 ms] RSP "STATUS V=128 R=64 BT=POLI-IOT-E2 FW=2.0-20100601 RX=44 OK=40 ERR=3" latencia=70.952 ms
+[7250.000 ms] CMD "PING" (auto 45/65)
+[7261.420 ms] RSP "PONG" latencia=6.212 ms
+[7400.000 ms] CMD "V0" (auto 46/65)
+[7416.636 ms] RSP "OK V=0 R=64" latencia=13.511 ms
+[7550.000 ms] CMD "R0" (auto 47/65)
+[7565.602 ms] RSP "OK V=0 R=0" latencia=12.477 ms
+[7700.000 ms] CMD "XYZ" (auto 48/65)
+[7730.211 ms] RSP "ERR comando desconocido" latencia=26.044 ms
+[7850.000 ms] CMD "1" (auto 49/65)
+[7866.645 ms] RSP "OK V=255 R=0" latencia=14.561 ms
+[8000.000 ms] CMD "3" (auto 50/65)
+[8018.736 ms] RSP "OK V=255 R=255" latencia=16.653 ms
+[8150.000 ms] CMD "2" (auto 51/65)
+[8166.644 ms] RSP "OK V=0 R=255" latencia=14.560 ms
+[8300.000 ms] CMD "4" (auto 52/65)
+[8314.563 ms] RSP "OK V=0 R=0" latencia=12.479 ms
+[8450.000 ms] CMD "V1" (auto 53/65)
+[8467.682 ms] RSP "OK V=255 R=0" latencia=14.557 ms
+[8600.000 ms] CMD "R1" (auto 54/65)
+[8619.777 ms] RSP "OK V=255 R=255" latencia=16.652 ms
+[8750.000 ms] CMD "V=128" (auto 55/65)
+[8772.933 ms] RSP "OK V=128 R=255" latencia=16.683 ms
+[8900.000 ms] CMD "R=64" (auto 56/65)
+[8920.836 ms] RSP "OK V=128 R=64" latencia=15.627 ms
+[9050.000 ms] CMD "STATUS" (auto 57/65)
+[9128.244 ms] RSP "STATUS V=128 R=64 BT=POLI-IOT-E2 FW=2.0-20100601 RX=57 OK=52 ERR=4" latencia=70.952 ms
+[9200.000 ms] CMD "PING" (auto 58/65)
+[9211.415 ms] RSP "PONG" latencia=6.207 ms
+[9350.000 ms] CMD "V0" (auto 59/65)
+[9366.636 ms] RSP "OK V=0 R=64" latencia=13.511 ms
+[9500.000 ms] CMD "R0" (auto 60/65)
+[9515.603 ms] RSP "OK V=0 R=0" latencia=12.478 ms
+[9650.000 ms] CMD "XYZ" (auto 61/65)
+[9680.211 ms] RSP "ERR comando desconocido" latencia=26.044 ms
+[9800.000 ms] CMD "1" (auto 62/65)
+[9816.639 ms] RSP "OK V=255 R=0" latencia=14.556 ms
+[9950.000 ms] CMD "3" (auto 63/65)
+[9968.736 ms] RSP "OK V=255 R=255" latencia=16.653 ms
+[10100.000 ms] CMD "2" (auto 64/65)
+[10116.645 ms] RSP "OK V=0 R=255" latencia=14.561 ms
+[10250.000 ms] CMD "4" (auto 65/65)
+[10264.562 ms] RSP "OK V=0 R=0" latencia=12.479 ms
+[10400.000 ms] RESUMEN autoprueba: enviados=65 respuestas=65 lat_media=19.274 ms lat_min=6.206 ms lat_max=70.952 ms descartados=0

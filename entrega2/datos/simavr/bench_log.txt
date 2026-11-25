@@ -1,0 +1,13 @@
+arranque: AT=4 cmds entre 23.71 y 106.34 ms, saludo a 280.84 ms, nombre=POLI-IOT-E2
+func baud=9600 N=2000 pass=2000 fail=0 leds_fail=0
+tiempo_simulado=79.517 s tiempo_real=13.601 s factor=5.85
+arranque: AT=4 cmds entre 21.14 y 41.99 ms, saludo a 100.66 ms, nombre=POLI-IOT-E2
+func baud=38400 N=2000 pass=2000 fail=0 leds_fail=0
+tiempo_simulado=35.007 s tiempo_real=6.578 s factor=5.32
+arranque: AT=4 cmds entre 20.56 y 27.55 ms, saludo a 60.23 ms, nombre=POLI-IOT-E2
+func baud=115200 N=2000 pass=2000 fail=0 leds_fail=0
+tiempo_simulado=25.020 s tiempo_real=4.492 s factor=5.57
+arranque: AT=4 cmds entre 23.71 y 106.34 ms, saludo a 280.84 ms, nombre=POLI-IOT-E2
+failsafe: LED antes=3 despues=0 t_apagado=0.0175 ms
+tiempo_simulado=0.404 s tiempo_real=0.115 s factor=3.52
+3,0,0.0175
