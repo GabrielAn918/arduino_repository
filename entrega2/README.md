@@ -20,12 +20,7 @@ de texto por el perfil SPP; el Arduino las interpreta y responde.
 
 ## Cómo reproducir
 
-**1. Simulación interactiva (Wokwi).** Abra el enlace del proyecto y pulse ▶. El monitor serie hace de
-aplicación del teléfono: escriba `V1`, `R1`, `V=128`, `STATUS`, etc. El control **Enlace** del chip HC-05
-(0/1) simula la pérdida y recuperación de la conexión. Para la autoprueba de 65 comandos, cambie en
-`diagram.json` el atributo `"autotest": "0"` por `"1"`; los resultados aparecen en la *Chips Console*.
-
-**2. Banco automatizado (simavr).**
+**1. Banco automatizado (simavr).**
 ```bash
 cd entrega2/banco_simavr && ./ejecutar_pruebas.sh
 ```
@@ -34,13 +29,13 @@ comandos aleatorios por velocidad contra el oráculo, las ráfagas y la prueba d
 Modos individuales: `./bench_bt <firmware.elf> <baudios> <salida.csv> func <N> <semilla> <pausa_max_ms>`,
 `... burst <K>` y `... failsafe`.
 
-**3. Validación de la Entrega 1.**
+**2. Validación de la Entrega 1.**
 ```bash
 cd entrega2/validacion_e1 && ./ejecutar.sh
 ```
 Para Wokwi, pegue `validacion_e1.ino` en un proyecto con solo el Arduino UNO y copie la salida del monitor serie.
 
-**4. Análisis y figuras.**
+**3. Análisis y figuras.**
 ```bash
 python3 entrega2/analisis/analisis_e2.py
 ```
