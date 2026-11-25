@@ -4,7 +4,6 @@ Circuito: módulo HC-05 conectado a la UART del Arduino UNO (D0/D1) a 9600 baudi
 pin EN en D7, y dos LED (verde en D5, rojo en D6, con resistencias de 220 Ω). El teléfono envía líneas
 de texto por el perfil SPP; el Arduino las interpreta y responde.
 
-- **Proyecto en Wokwi:** ENLACE_WOKWI
 - **Artículo (IEEE):** [`articulo/`](articulo/)
 
 ## Estructura
